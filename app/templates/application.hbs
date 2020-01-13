@@ -1,9 +1,9 @@
-<HeaderComponent />
-<NavigationComponent />
+<HeaderComponent @title="Crimbo 2019"  @tagline="Paris, Versaille & Alps" />
+<NavigationComponent @nav-items={{nav-items}}/>
 <main>
 <BannerComponent />
 <ContentComponent />
 </main>
 
-<FooterComponent date=date />
+<FooterComponent @date=date />
 {{outlet}}
